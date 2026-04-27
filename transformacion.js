@@ -1,4 +1,4 @@
-console.log("ddd")
+console.log("aqui comienza")
 const xmlRecetas = fetch("./recetas.xml");
 const xmlRecetasString = xmlRecetas.text;
 const parser = new DOMParser();
