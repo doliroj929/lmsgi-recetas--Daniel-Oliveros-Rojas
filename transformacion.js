@@ -4,12 +4,22 @@ const xmlRecetasString = xmlRecetas.text;
 const parser = new DOMParser();
 const xmlDoc = parser.parseFromString(xmlRecetasString, "application/xml");
 
-function xmlToJson(xml) {
+
+function xmlToJson(xmlDoc) {
     const obj = {};
-    for (let node of xml.children) {
+    for (let node of xmlDoc.children) {
         obj[node.nodeName] = node.textContent;
     }
     return obj;
 }
 
-console.log(xmlToJson(xmlDoc.documentElement));
+const json = xmlToJson(xmlDoc);
+
+
+function main(){
+
+
+    console.log(json)
+}
+
+main()

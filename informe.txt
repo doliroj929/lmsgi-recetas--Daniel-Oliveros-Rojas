@@ -1,0 +1,20 @@
+Herramientas utilizadas para crear y validar el XSD.
+La principal herramienta que use para realizar es la estructura de validación
+usa correctamente el enlazado de los dos ficheros
+por el lado de xsd
+<?xml version="1.0" encoding="UTF-8"?>
+schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+y por el otro lado xml
+hay que usar
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+
+Evidencia de que el XML valida correctamente contra el XSD (captura).
+
+".\lmsgi-recetas--Daniel-Oliveros-Rojas\img.png"
+
+
+Para qué sirve DOMParser y en qué se diferencia a trabajar con JSON.
+
+la principal  veneficio del domParse es que no tenemos es instalar nada aparte para
+realizar el proceso de transformación de xml a json
