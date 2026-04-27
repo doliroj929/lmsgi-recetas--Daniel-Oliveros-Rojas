@@ -1,0 +1,23 @@
+<recetas>
+    <receta>
+        <codigo>1</codigo>
+        <nombre>arroz_chino</nombre>
+        <categoria>asitico</categoria>
+        <tiempo>3</tiempo>
+        <dificultad>baja</dificultad>
+    </receta>
+    <receta>
+        <codigo>2</codigo>
+        <nombre>paella</nombre>
+        <categoria>eurpa</categoria>
+        <tiempo>2</tiempo>
+        <dificultad>media</dificultad>
+    </receta>
+    <receta>
+        <codigo>3</codigo>
+        <nombre>arroz con pollo</nombre>
+        <categoria>latina</categoria>
+        <tiempo>1</tiempo>
+        <dificultad>baja</dificultad>
+    </receta>
+</recetas>
