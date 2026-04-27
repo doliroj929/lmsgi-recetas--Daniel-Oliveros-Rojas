@@ -6,9 +6,10 @@ const xmlDoc = parser.parseFromString(xmlRecetasString, "application/xml");
 
 
 function xmlToJson(xmlDoc) {
-    const obj = {};
+    const obj= {};
     for (let node of xmlDoc.children) {
         obj[node.nodeName] = node.textContent;
+
     }
     return obj;
 }

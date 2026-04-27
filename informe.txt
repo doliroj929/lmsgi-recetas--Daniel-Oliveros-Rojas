@@ -17,4 +17,4 @@ Evidencia de que el XML valida correctamente contra el XSD (captura).
 Para qué sirve DOMParser y en qué se diferencia a trabajar con JSON.
 
 la principal  veneficio del domParse es que no tenemos es instalar nada aparte para
-realizar el proceso de transformación de xml a json
+realizar el proceso de trans    formación de xml a json
